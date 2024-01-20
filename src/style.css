@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.login-box{
+    background-color: aquamarine;
+    width: 30vw;
+    margin: 100px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.in-field{
+    padding: 5px;
+    margin: 2px 0px;
+    border: 0.5px solid black;
+    border-radius: 2px;
+    outline: none;
+    width: 100%;
+}
+
+.cont-btn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    margin: 10px 45px 0px;
+    cursor: pointer;
+}
+.cont-btn:hover{
+    background-color:darkblue;
+}
+
+.field-box{
+    margin: 5px 0px;
+}
+.field-box>div>label{
+    /* margin-top:; */
+    font-size: 16px !important;
+}
+.field-box>div{
+    margin-top: 10px;
+}
+
+.forget-pass{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
